@@ -15,8 +15,8 @@ public class TranslatorImplTest {
     @BeforeMethod
     public void setUp() throws Exception {
         translator = new TranslatorImpl();
-        from = new Language("EN", "English");
-        to = new Language("ES", "Spanish");
+        from = new Language("en", "English");
+        to = new Language("es", "Spanish");
     }
 
     @Test(invocationCount = 100, threadPoolSize = 5)
